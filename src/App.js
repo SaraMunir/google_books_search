@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <NavBar/>
-        <Route exact path= {["/", "/search"]}  component={SearchPage} />
+        <Route exact path= {["/", "/search", "/google_books_search"]}  component={SearchPage} />
         <Route exact path= "/saved"  component={SavedPage} />
     </Router>
   );
