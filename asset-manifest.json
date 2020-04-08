@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/google_books_search/static/css/main.b693bb73.chunk.css",
+    "main.js": "/google_books_search/static/js/main.d1850d1d.chunk.js",
+    "main.js.map": "/google_books_search/static/js/main.d1850d1d.chunk.js.map",
+    "runtime-main.js": "/google_books_search/static/js/runtime-main.06b60de0.js",
+    "runtime-main.js.map": "/google_books_search/static/js/runtime-main.06b60de0.js.map",
+    "static/js/2.a64986ac.chunk.js": "/google_books_search/static/js/2.a64986ac.chunk.js",
+    "static/js/2.a64986ac.chunk.js.map": "/google_books_search/static/js/2.a64986ac.chunk.js.map",
+    "index.html": "/google_books_search/index.html",
+    "precache-manifest.fe240f9639be2da442e7c3021dec1c67.js": "/google_books_search/precache-manifest.fe240f9639be2da442e7c3021dec1c67.js",
+    "service-worker.js": "/google_books_search/service-worker.js",
+    "static/css/main.b693bb73.chunk.css.map": "/google_books_search/static/css/main.b693bb73.chunk.css.map",
+    "static/js/2.a64986ac.chunk.js.LICENSE.txt": "/google_books_search/static/js/2.a64986ac.chunk.js.LICENSE.txt",
+    "static/media/1200px-Google_Books_logo_2015.svg.png": "/google_books_search/static/media/1200px-Google_Books_logo_2015.svg.0d1c8667.png",
+    "static/media/janko-ferlic-sfL_QOnmy00-unsplash.jpg": "/google_books_search/static/media/janko-ferlic-sfL_QOnmy00-unsplash.0c5b914f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06b60de0.js",
+    "static/js/2.a64986ac.chunk.js",
+    "static/css/main.b693bb73.chunk.css",
+    "static/js/main.d1850d1d.chunk.js"
+  ]
+}
