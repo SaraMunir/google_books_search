@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5dc7cffeb5743729cb365c2a76e2096",
+    "revision": "d1f174cdd1b811c053662f7d04e620eb",
     "url": "/google_books_search/index.html"
   },
   {
-    "revision": "8171f941a06bb0c71595",
+    "revision": "67a96a07c88297c1c850",
     "url": "/google_books_search/static/css/main.b693bb73.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/google_books_search/static/js/2.a64986ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8171f941a06bb0c71595",
-    "url": "/google_books_search/static/js/main.d1850d1d.chunk.js"
+    "revision": "67a96a07c88297c1c850",
+    "url": "/google_books_search/static/js/main.5b1ff4be.chunk.js"
   },
   {
     "revision": "ea7033f63f4f87af40b5",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/google_books_search/static/media/1200px-Google_Books_logo_2015.svg.0d1c8667.png"
   },
   {
-    "revision": "0c5b914fac708c592bf2d2f32f992e9f",
-    "url": "/google_books_search/static/media/janko-ferlic-sfL_QOnmy00-unsplash.0c5b914f.jpg"
+    "revision": "13b28c484fde1b2fdd25288cbfc70a15",
+    "url": "/google_books_search/static/media/paul-schafer-t6oZEgL0z18-unsplash.13b28c48.jpg"
   }
 ]);
