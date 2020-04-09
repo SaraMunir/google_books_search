@@ -1,15 +1,92 @@
-import React from 'react'
+import React, { useState, useRef }  from 'react'
 import heroImg from './assets/paul-schafer-t6oZEgL0z18-unsplash.jpg'
-function SearchPage() {
+import BookList from './BookList';
+
+const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop); 
+
+function SearchPage(props) {
+
+    const myRef = useRef(null)
+    // const executeScroll = () => 
+
     const searchStyle= {
-        height: '80vh',
+        height: '85vh',
         backgroundImage: `url(${heroImg})`,
         backgroundSize: 'cover',
-        backgroundPostition: 'center' 
+        backgroundPositionY: '-174px'
+    }
+    const myForm={
+        width: '70%',
+        margin: '160px auto'
+    }
+    const myInput={
+        borderTopLeftRadius: '20px',
+        borderRadius: '20px',
+        borderBottomLeftRadius: '20px'
+    }
+    const myBtnRgt={
+        width: '150px',
+        padding: '10px',
+        backgroundColor: '#ed145b',
+        borderRadius: '20px',
+        marginLeft: '20px',
+        cursor: 'pointer'
+    } 
+
+    const [ searchInput, setSearchInput ] = useState("");
+    const [ bookList, setBookList ] = useState([]);
+    const [ showList, setShowList ] = useState([]);
+    
+    function handleInputChange( e ){
+        const newInput = e.target.value;
+        setSearchInput( newInput );
+        // setShowList( newInput );
+    }
+    async function setResultBooks( ){
+        console.log(`[setResultBooks] called with '${searchInput}'`);
+        // setSearchInput('');
+        // setShowBreed(breed)
+        const bookResult = await fetch( `https://www.googleapis.com/books/v1/volumes?q=${searchInput}` ).then( result=>result.json() );
+
+        setBookList( bookResult.items );
+        console.log( 'booklist: ', bookResult.items); 
+        scrollToRef(myRef);
+        // let html ='';
+        // if (bookList !== undefined || bookList.length !== 0){
+        //     // html = renderToString(<BookList  showList={bookList}/>)
+        // }
+        // html = `<BookList ={${bookList}}/>`;
+        
+        // if (bookList == null){
+        //     setShowList([]);
+        // } else {
+            
+        //     setShowList(bookList);
+        // }
+        // var node = document.getElementById("something");
+        // var new = document.createElement(`<BookList showList=${showList}/>`);
+        // node.appendChild(new);
+
+        // var node = document.createElement(`<BookList showList=${showList}/>`);
+        // var textnode = document.createTextNode("Water");
+        // node.appendChild(textnode);
+        // document.getElementById("something").appendChild(node);
+        
     }
     return (
-        <div class="jumbotron jumbotron-fluid hero" style={searchStyle}>
-            searching page
+        <div id='something'>
+            <div class="jumbotron jumbotron-fluid hero" style={searchStyle}>
+                <div class="searchBox container">
+                    <div class="input-group mb-3 text-center" style={myForm}>
+                        <input onChange={handleInputChange} value={searchInput} type="text" class="form-control text-center" style={myInput} placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+                        <div class="myBtnRgt" onClick={function(){ setResultBooks()}}>Search Books</div>
+                    </div>
+                </div>
+            </div>
+            <BookList bookList={bookList} myRef={myRef} />
+            {/* <div dangerouslySetInnerHTML={{ __html: html }}></div> */}
+            {/* <div showList={showList}>
+            </div> */}
         </div>
     )
 }

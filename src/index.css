@@ -6,17 +6,55 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
-/* .hero {
-    height: '80vh',
-    backgroundImage: heroImg,
-    backgroundSize: 'cover',
-    backgroundPostition: 'center' 
+.something{
+  border: 1px solid rgb(212, 212, 212);
+  margin: 20px auto;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  /* width: ; */
 }
-} */
+.bookImg {
+  border: 1px solid blue;
+  padding: 10px;
+  /* width: 40vh;
+  height: 40vh; */
+}
+.bookImg img {
+  width: 50vh;
+  height: 50vh;
+  object-fit: contain;
+}
+.bookDesc {
+  border: 1px solid yellowgreen;
+  padding: 25px;
+}
+.myBtnRgt {
+  width: 150px;
+  padding: 10px;
+  background-color: #ed145b;
+  border-radius: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.myBtn2 {
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+  background: #ed145b;
+}
+.myBtn2:hover {
+  text-decoration: none;
+  color: white;
+}
+.pinkFnt{
+  color: #ed145b;
+}
+.saveBtn {
+  margin: 5px;
+  cursor: pointer;
+}

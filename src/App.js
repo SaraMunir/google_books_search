@@ -7,7 +7,6 @@ import SearchPage from './components/SearchPage';
 import SavedPage from './components/SavedPage';
 
 
-
 function App() {
   return (
     <Router>

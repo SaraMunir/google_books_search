@@ -5,11 +5,10 @@ import googleLogo from './assets/1200px-Google_Books_logo_2015.svg.png'
 
 function NavBar( props ) {
     const location = useLocation();
-
     return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
         <Link to="/" className="navbar-brand">
-            <img src={googleLogo} alt="googleLogo" style={{width: '150px'}}/>
+            <img src={googleLogo} alt="googleLogo" style={{width: '120px'}}/>
         </Link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
