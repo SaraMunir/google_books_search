@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/google_books_search/static/css/main.b693bb73.chunk.css",
-    "main.js": "/google_books_search/static/js/main.5b1ff4be.chunk.js",
-    "main.js.map": "/google_books_search/static/js/main.5b1ff4be.chunk.js.map",
+    "main.css": "/google_books_search/static/css/main.19358aed.chunk.css",
+    "main.js": "/google_books_search/static/js/main.68d98ee6.chunk.js",
+    "main.js.map": "/google_books_search/static/js/main.68d98ee6.chunk.js.map",
     "runtime-main.js": "/google_books_search/static/js/runtime-main.06b60de0.js",
     "runtime-main.js.map": "/google_books_search/static/js/runtime-main.06b60de0.js.map",
-    "static/js/2.a64986ac.chunk.js": "/google_books_search/static/js/2.a64986ac.chunk.js",
-    "static/js/2.a64986ac.chunk.js.map": "/google_books_search/static/js/2.a64986ac.chunk.js.map",
+    "static/js/2.a421be57.chunk.js": "/google_books_search/static/js/2.a421be57.chunk.js",
+    "static/js/2.a421be57.chunk.js.map": "/google_books_search/static/js/2.a421be57.chunk.js.map",
     "index.html": "/google_books_search/index.html",
-    "precache-manifest.600f91442e4d3bfdca0c229b9b89ce8f.js": "/google_books_search/precache-manifest.600f91442e4d3bfdca0c229b9b89ce8f.js",
+    "precache-manifest.42862a7fd51d7a6e9859f89f5c675540.js": "/google_books_search/precache-manifest.42862a7fd51d7a6e9859f89f5c675540.js",
     "service-worker.js": "/google_books_search/service-worker.js",
-    "static/css/main.b693bb73.chunk.css.map": "/google_books_search/static/css/main.b693bb73.chunk.css.map",
-    "static/js/2.a64986ac.chunk.js.LICENSE.txt": "/google_books_search/static/js/2.a64986ac.chunk.js.LICENSE.txt",
+    "static/css/main.19358aed.chunk.css.map": "/google_books_search/static/css/main.19358aed.chunk.css.map",
+    "static/js/2.a421be57.chunk.js.LICENSE.txt": "/google_books_search/static/js/2.a421be57.chunk.js.LICENSE.txt",
     "static/media/1200px-Google_Books_logo_2015.svg.png": "/google_books_search/static/media/1200px-Google_Books_logo_2015.svg.0d1c8667.png",
     "static/media/paul-schafer-t6oZEgL0z18-unsplash.jpg": "/google_books_search/static/media/paul-schafer-t6oZEgL0z18-unsplash.13b28c48.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.06b60de0.js",
-    "static/js/2.a64986ac.chunk.js",
-    "static/css/main.b693bb73.chunk.css",
-    "static/js/main.5b1ff4be.chunk.js"
+    "static/js/2.a421be57.chunk.js",
+    "static/css/main.19358aed.chunk.css",
+    "static/js/main.68d98ee6.chunk.js"
   ]
 }
