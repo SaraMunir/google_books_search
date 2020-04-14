@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b362a140d042207a629c95e47cbc2532",
+    "revision": "e2d4d2d25376bfe5265f43b05d3cf2ef",
     "url": "/google_books_search/index.html"
   },
   {
-    "revision": "f84761a4534078850638",
-    "url": "/google_books_search/static/css/main.19358aed.chunk.css"
+    "revision": "532a8e8eccb430cf8417",
+    "url": "/google_books_search/static/css/main.332de420.chunk.css"
   },
   {
-    "revision": "fe989c5e889a2bf4cd3a",
-    "url": "/google_books_search/static/js/2.a421be57.chunk.js"
+    "revision": "25f7997eb3ac9fb0453e",
+    "url": "/google_books_search/static/js/2.75ad3db4.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/google_books_search/static/js/2.a421be57.chunk.js.LICENSE.txt"
+    "url": "/google_books_search/static/js/2.75ad3db4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f84761a4534078850638",
-    "url": "/google_books_search/static/js/main.68d98ee6.chunk.js"
+    "revision": "532a8e8eccb430cf8417",
+    "url": "/google_books_search/static/js/main.8e464110.chunk.js"
   },
   {
     "revision": "ea7033f63f4f87af40b5",
